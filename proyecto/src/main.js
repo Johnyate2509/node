@@ -1,5 +1,6 @@
 import { supabase } from "./supabase.js";
 import { mostrarLogin } from "./login.js";
+import { mostrarRegistro } from "./registro.js";
 document.addEventListener('DOMContentLoaded', async () => {
 const user = await validarSesion();
 if (!user) {
